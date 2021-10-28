@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import "jquery/dist/jquery.js";
 
-axios.defaults.baseURL = "http://localhost:3001/api";
+axios.defaults.baseURL = "https://goandexplore.herokuapp.com/api";
 // axios.defaults.baseURL = "https://zany-periodic-fisherman.glitch.me/api";
 let userData = JSON.parse(localStorage.getItem("userData"));
 let token;
